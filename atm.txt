@@ -1,0 +1,18 @@
+name="cherry"
+password="cherry007"
+n=input("enter name")
+p=input("enter password")
+i=1
+while(i<=5):
+    if(name==n and password==p):
+        print("login success")
+        break
+    else:
+        print("invalid address")
+        n=input("enter name")
+        p=input("enter password")
+        i+=1
+
+else:
+    print("try after 24 hours")
+        
